@@ -9,7 +9,7 @@
 	display: flex;	
 }
  .grid-cell{
-	flex: 1;
+	flex: 1 0 0;
 	font-family:"微软雅黑" ;
 	text-align: center;	
 	line-height: 50px;
@@ -59,6 +59,17 @@
   order: -1;
   background: #fff432;
 }
+    @media (max-width: 768px) {
+      .HolyGrail-body {
+        flex-direction: column;
+        flex: 1;
+      }
+      .HolyGrail-nav,
+      .HolyGrail-ads,
+      .HolyGrail-content {
+        flex: auto;
+      }
+    }
 
 
 
