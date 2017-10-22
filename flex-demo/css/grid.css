@@ -1,0 +1,81 @@
+
+
+/*[class$="cell"]{
+	height: 50px;
+	background: #BBBBBB;
+	margin: 15px;
+}*/
+.grid{
+	display: flex;	
+}
+ .grid-cell{
+	flex: 1;
+	font-family:"微软雅黑" ;
+	text-align: center;	
+	line-height: 50px;
+	height: 50px;
+	background: #BBBBBB;
+	margin: 15px;
+}
+.grid2{
+	display: flex;
+}
+.grid2 .u-lof1{
+	flex: 0 0 50%;
+}
+.grid2 .u-lof2{
+	flex:0 0 33.33%;
+}
+.grid2 .u-lof3{
+	flex: 0 0 25%;
+}
+.HolyGrail{
+	display: flex;
+	flex-direction: column;
+	width:700px;
+}
+.header, .footer{
+	flex: 1;
+	background: #BBBBBB;
+	height: 30px;
+}
+.HolyGrail-body{
+	display: flex;
+	flex: 1;
+	height:200px;
+}
+.HolyGrail-content{
+	flex: 1;
+	background:cornflowerblue;
+}
+.HolyGrail-nav, .HolyGrail-aside {
+  /* 两个边栏的宽度设为12em */
+  flex: 0 0 6em;
+  background:#fff567;
+}
+
+.HolyGrail-nav {
+  /* 导航放到最左边 */
+  order: -1;
+  background: #fff432;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

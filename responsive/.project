@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>flex-demo</name>
+	<name>responsive</name>
 	<comment>Create By HBuilder</comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1508585490011</id>
+			<id>0</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -34,16 +34,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1508658215938</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-node_modules</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1508658215964</id>
+			<id>0</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
