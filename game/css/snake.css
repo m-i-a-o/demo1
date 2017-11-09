@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+}
+.wrap{
+	position: relative;
+	margin:0 auto;
+	width: 600px;
+}
+.wrap h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#pause{
+	margin-left:18%;
+}
+.wrap input{
+	float: left;
+	margin-right: 10px;
+	width: 60px;
+	height: 40px;
+	background: cornflowerblue;
+	border:none;
+	color:#fff;
+	border-radius: 10px;
+}
+
+.wrap p{
+	position: absolute;
+	left:65%;
+	margin-top:10px;
+	font-size:18px;
+	color:red;	
+}
+.row{
+	height:20px;
+}
+.col{
+	height:20px;
+	width:20px;
+	border-box:box-sizing;
+	border:1px solid #lightgray;
+	background:#fff;
+	float: left;
+}
+.activeSnake{
+	background: black;
+}
+.egg{
+	background:red;
+}
