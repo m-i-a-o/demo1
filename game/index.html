@@ -1,26 +1,31 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8"/>
-		<title>贪吃蛇</title>
-		<meta	name="viewport" content="width=device-width,
-			initial-scale=1"</meta	name="viewport"/>
-	    <link rel="stylesheet" href="css/snake.css" />	
-	</head>
-	<div class="wrap">
-		<h1>贪吃蛇游戏</h1>
-		<!--记录成绩-->
-		<p>score:<span id="score" 
-			style="color:black">0</span></p>
-			<!--暂停-->
-		<input id="pause"  type="button" value="Pause"/>
-		<!--开始-->
-		<input id="start" type="button" value="Start"/>
-		<!--重新开始-->
-		<input id="refresh" type="button" value="Refresh" />
-		<!--速度-->
-		<input id="speed" type="button" value="Speed" />
-		<!--行走地图-->
-		<div class="map" id="snack-map"></div>
-	</div>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<link rel="stylesheet" href="css/snake.css">
+
+<body>
+    <div class="wrap">
+        <h1>贪吃蛇游戏</h1>
+        <!-- 记录吃了多少个蛋 -->
+        <p style="font-size:20px;color:red"> score:<span id="score" style="color:black">0</span> </p>
+        <!-- 暂停按钮 -->
+        <input id="Pause" type="button" name="name" value="Pause">
+        <!-- 开始按钮 -->
+        <input id="Start" type="button" name="name" value="Start">
+        <!-- 刷新(重新开始游戏) -->
+        <input id="Refresh" type="button" name="name" value="Refresh">
+        <!-- 加速按钮 -->
+        <input id="Speed" type="button" name="name" value="Speed">
+        <!-- 贪吃蛇的行走路径地图 -->
+        <div id="snake_map">
+
+        </div>
+    </div>
+    <script src="js/snake.js"></script>
+</body>
+
 </html>
